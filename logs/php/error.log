@@ -1,0 +1,30 @@
+[05-Dec-2023 15:18:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\jpele\Local Sites\refugioanimal\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[07-Dec-2023 20:18:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\jpele\Local Sites\refugioanimal\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[07-Dec-2023 20:18:52 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\jpele\Local Sites\refugioanimal\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Undefined array key "id" in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 41
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Undefined array key "id" in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 41
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[08-Dec-2023 23:09:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[09-Dec-2023 04:03:28 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\class-arconix-faq-admin.php:649
+Stack trace:
+#0 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\class-wp-hook.php(324): Arconix_FAQ_Admin::faq_ts_add_plugin_tracking_data(Array)
+#1 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\component\tracking-data\class-ts-tracker.php(133): apply_filters('ts_tracker_data', Array)
+#3 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\component\tracking-data\class-ts-tracker.php(85): FAQ_TS_Tracker::ts_get_tracking_data()
+#4 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\component\tracking-data\ts-tracking.php(318): FAQ_TS_Tracker::ts_send_tracking_data(true)
+#5 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\component\tracking-data\ts-tracking.php(337): FAQ_TS_tracking::ts_tracking_actions()
+#6 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\class-wp-hook.php(324): FAQ_TS_tracking::ts_track_usage_data('')
+#7 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-admin\admin-header.php(303): do_action('admin_notices')
+#10 C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-admin\edit.php(411): require_once('C:\\Users\\Luz\\Lo...')
+#11 {main}
+  thrown in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-content\plugins\arconix-faq\includes\class-arconix-faq-admin.php on line 649
+[12-Dec-2023 14:58:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[12-Dec-2023 16:18:03 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Luz\Local Sites\refugioanimal\app\public\wp-includes\class-wp-customize-widgets.php on line 905
